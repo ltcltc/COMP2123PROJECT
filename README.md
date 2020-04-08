@@ -7,12 +7,19 @@ Topic: Noughts and Crosses Game
 
 
 Game Descriptions:
+
 1. First, the programme asks the player to choose the level of AI challenge and ask players to input their name.
+
 2. The programme shows the gameboards (includes number 1 - 9) with countdown and then asks the player to input a number.
+
 3. Afterwards, the player inputs a number within the range from one to nine. 
+
 4. After, AI makes step base on the challenging level, repeat step 2-4 until entering into step 5.
+
 5. Game end until three continuous boxes have the same patterns. 
+
 6. Then, the records of the steps made by players will be shown as a transcript. 
+
 7. There is a countdown from 15 seconds. If the players cannot play it within the limit, He/she will be failed. 
 
 
@@ -87,26 +94,47 @@ Functions:
 
 Prototype 
 	Descriptions
+	
 	int main();
-	Loop the game if player wants to play it again. Otherwise, end the game. 
+	
+	Loop the game if player wants to play it again. Otherwise, end the game.
+	
 	void input();
+	
 	Get the input from player. 
+	
 	void aiLevel();
+	
 	Choose the AI level
+	
 	void printboard(); 
+	
 	Print the game board
+	
 	bool checkwin();
+	
 	Check which players win or the game has drawn and return bool value.
+	
 	int aisteps();
+	
 	AI takes steps based on the level chosen by the player. Then return an integer.
+	
 a - AI tries to take a step and make it more consecutive in sequence based on random numbers, possibility, and chessboard.
+
 b - AI generate a random number to take a possible step.
+
 	bool countdown();
+	
 	Countdown from 15 seconds to 0; Then return a bool value. 
+	
 	Void updatefile();
+	
 	Record all the steps made by the player and save it to a .txt file to generate a transcript for them after the game end. 
+	
 	Void showfile();
+	
 	Show the transcript records that made by updatefile() at the end of the game.
+	
 	
 
 	
