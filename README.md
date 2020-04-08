@@ -13,3 +13,21 @@
 5. Game end until three continuous boxes have the same patterns. 
 6. Then, the records of the steps made by players will be shown as a transcript. 
 7. There is a countdown from 15 seconds. If the players cannot play it within the limit, He/she will be failed. 
+
+## **Features **
+...
+1. Chessboard Layout: To print the layout of the Noughts and Crosses Chessboard based on the numerical sequence.
+Eg:	
+Gameboard:			Time: 15 s
+---------------------------
+
+1 | 2 | 3
+----------
+4 | 5 | 6
+----------
+7 | 8 | 9
+
+---------------------------	
+Please input: (number)
+	----------------------------
+...
