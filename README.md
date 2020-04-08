@@ -1,7 +1,8 @@
 Group No.: 181
 
-Group members: 	Wan, Ho Yin, Jason 
-		Tianchu Li
+Group members: 	
+Wan, Ho Yin, Jason 
+Tianchu Li
 
 Topic: Noughts and Crosses Game
 
@@ -36,10 +37,10 @@ Gameboard:                        Time: 15 s
 
 
 1 | 2 | 3
-        ----------
-        4 | 5 | 6
-        ----------
-        7 | 8 | 9
+----------
+4 | 5 | 6
+----------
+7 | 8 | 9
 
 
 ---------------------------        
