@@ -1,14 +1,10 @@
+## **Group No.: 181**
 
+## **Group members: Wan, Ho Yin, Jason; Tianchu Li**
 
-Group No.: 181
+## **Topic: Noughts and Crosses Game**
 
-Group members: Wan, Ho Yin, Jason
-
-  Tianchu Li
-
-Topic: Noughts and Crosses Game
-
-Game Descriptions:
+## **Game Descriptions:**
 
 1.  First, the programme asks the player to choose the level of AI challenge and
     ask players to input their name.
@@ -29,11 +25,10 @@ Game Descriptions:
 7.  There is a countdown from 15 seconds. If the players cannot play it within
     the limit, He/she will be failed.
 
-Link: https://github.com/ltcltc/COMP2123PROJECT
 
-Features
-'''
+## **Features**
 
+```
 1.  Chessboard Layout: To print the layout of the Noughts and Crosses Chessboard
     based on the numerical sequence.
 
@@ -59,11 +54,15 @@ Features
 
 >   \----------------------------
 
-1.  When the game is ended. The programme shows,
+```
+
+```
+2.  When the game is ended. The programme shows,
 
 >   Congratulation, Jason! You win the game!
 
 >   Here are your records.
+
 
 1st input:
 
@@ -85,24 +84,26 @@ Jason: 9
 
 AI: 8
 
-1.  AI player: There are two options which the player will choose two different
+```
+
+3.  AI player: There are two options which the player will choose two different
     levels of AI to play with:
 
     1.  AI will generate a number according to the step of the human players.
 
     2.  Or AI will generate a number randomly.
 
-2.  MakeAStep: Player makes a valid step to be recorded in the program
+4.  MakeAStep: Player makes a valid step to be recorded in the program
 
-3.  Chessboard: To storage the steps made by the player
+5.  Chessboard: To storage the steps made by the player
 
-4.  Countdown: The player only have 15 seconds to play the game. Otherwise,
+6.  Countdown: The player only have 15 seconds to play the game. Otherwise,
     he/she lose.
 
-5.  Win check: To check if one of the players is winning or the game is drawn.
+7.  Win check: To check if one of the players is winning or the game is drawn.
 '''
 
-Functions:
+## **Functions:**
 
 | **Prototype**                                            | **Descriptions**                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -118,7 +119,8 @@ Functions:
 |                                                          |                                                                                                                                                                                                                                                                     |
 | **Code Requirements**                                    | **Game Implementations:**                                                                                                                                                                                                                                           |
 | Generation of random game sets or events                 | AI generates a number for steps                                                                                                                                                                                                                                     |
-| Data structures for storing game status                  | Array in integer datatype stores the data of the gameboard.                                                                                                                                                                                                         |
+| Data structures for storing game status                  | Array in integer datatype stores the data of the gameboard.
+                                                             String to store player name.|
 | Dynamic memory management                                | Program storage the steps taken by the player                                                                                                                                                                                                                       |
 | File input/output (e.g., for loading/saving game status) | The program saves and reads the steps of the players to and from a document.                                                                                                                                                                                        |
 | Program codes in multiple files                          | Files: main.cpp input.cpp, input.h aiLevel.cpp. aiLevel.h printboard.cpp, printbaord.h checkwin.cpp, checkwin.h aisteps.cpp, aisteps.h countdown.cpp, countdown.h updatefile.cpp, updatefile.h showfile.cpp, showfile.h                                             |
