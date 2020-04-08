@@ -32,36 +32,30 @@
 1.  Chessboard Layout: To print the layout of the Noughts and Crosses Chessboard
     based on the numerical sequence.
 
->   Eg:
+   Eg:
 
->   Gameboard: Time: 15 s
+   Gameboard: Time: 15 s
 
->   ---------------------------
+   ---------------------------
 
->   1 | 2 | 3
+   1 | 2 | 3
+   ----------
+   4 | 5 | 6
+   ----------
+   7 | 8 | 9
+   ---------------------------
 
->   ----------
-
->   4 | 5 | 6
-
->   ----------
-
->   7 | 8 | 9
-
->   ---------------------------
-
->   Please input: (number)
-
->   ----------------------------
+    Please input: (number)
+    ----------------------------
 
 ```
 
 ```
 2.  When the game is ended. The programme shows,
 
->   Congratulation, Jason! You win the game!
+   Congratulation, Jason! You win the game!
 
->   Here are your records.
+   Here are your records.
 
 
 1st input:
@@ -107,7 +101,7 @@ AI: 8
 
 | **Prototype**                                            | **Descriptions**                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ·int main(); ·                                             | Loop the game if player wants to play it again. Otherwise, end the game.                                                                                                                                                                                            |
+| `int main();`                                             | Loop the game if player wants to play it again. Otherwise, end the game.                                                                                                                                                                                            |
 | ·void input();·                                            | Get the input from player.                                                                                                                                                                                                                                          |
 | ·void aiLevel();·                                          | Choose the AI level                                                                                                                                                                                                                                                 |
 | ·void printboard();·                                       | Print the game board                                                                                                                                                                                                                                                |
