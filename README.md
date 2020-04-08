@@ -1,8 +1,8 @@
-# **Group No.: 181**
+## **Group No.: 181**
 
-# **Group members: Wan, Ho Yin, Jason   Tianchu Li**
+## **Group members: Wan, Ho Yin, Jason   Tianchu Li**
 
-# **Topic: Noughts and Crosses Game**
+## **Topic: Noughts and Crosses Game**
 
 ## **Game Descriptions:**
 
