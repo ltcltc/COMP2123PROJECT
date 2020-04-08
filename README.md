@@ -32,19 +32,19 @@ Features
 
 1. Chessboard Layout: To print the layout of the Noughts and Crosses Chessboard based on the numerical sequence.
 Eg:        
-Gameboard:                        Time: 15 s
----------------------------
+	Gameboard:                        Time: 15 s
+	---------------------------
 
 
-1 | 2 | 3
-----------
-4 | 5 | 6
-----------
-7 | 8 | 9
+	1 | 2 | 3
+	----------
+	4 | 5 | 6
+	----------
+	7 | 8 | 9
 
 
----------------------------        
-Please input: (number)
+	---------------------------        
+	Please input: (number)
         ----------------------------
 ________________
 
