@@ -1,10 +1,10 @@
-#**Group No.: 181**
+# **Group No.: 181**
 
-#**Group members: Wan, Ho Yin, Jason   Tianchu Li**
+# **Group members: Wan, Ho Yin, Jason   Tianchu Li**
 
-#**Topic: Noughts and Crosses Game**
+# **Topic: Noughts and Crosses Game**
 
-##**Game Descriptions:**
+## **Game Descriptions:**
 
 1. First, the programme asks the player to choose the level of AI challenge and ask players to input their name.
 2. The programme shows the gameboards (includes number 1 - 9) with countdown and then asks the player to input a number.
