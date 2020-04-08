@@ -36,23 +36,23 @@
 
 >   Gameboard: Time: 15 s
 
->   \---------------------------
+>   ---------------------------
 
->   1 \| 2 \| 3
+>   1 | 2 | 3
 
->   \----------
+>   ----------
 
->   4 \| 5 \| 6
+>   4 | 5 | 6
 
->   \----------
+>   ----------
 
->   7 \| 8 \| 9
+>   7 | 8 | 9
 
->   \---------------------------
+>   ---------------------------
 
 >   Please input: (number)
 
->   \----------------------------
+>   ----------------------------
 
 ```
 
@@ -120,13 +120,14 @@ AI: 8
 | **Code Requirements**                                    | **Game Implementations:**                                                                                                                                                                                                                                           |
 | Generation of random game sets or events                 | AI generates a number for steps                                                                                                                                                                                                                                     |
 | Data structures for storing game status                  | Array in integer datatype stores the data of the gameboard.
-                                                             String to store player name.|
+String to store player name.
+                                                            
+                                                |
 | Dynamic memory management                                | Program storage the steps taken by the player                                                                                                                                                                                                                       |
 | File input/output (e.g., for loading/saving game status) | The program saves and reads the steps of the players to and from a document.                                                                                                                                                                                        |
 | Program codes in multiple files                          | Files: main.cpp input.cpp, input.h aiLevel.cpp. aiLevel.h printboard.cpp, printbaord.h checkwin.cpp, checkwin.h aisteps.cpp, aisteps.h countdown.cpp, countdown.h updatefile.cpp, updatefile.h showfile.cpp, showfile.h                                             |
 |                                                          |                                                                                                                                                                                                                                                                     |
 
--   String to store player name.
 
 References: Tic-Tac-Toe, Wikipedia, https://en.wikipedia.org/wiki/Tic-tac-toe
 
