@@ -98,38 +98,47 @@ Prototype
 	int main();
 	
 	Loop the game if player wants to play it again. Otherwise, end the game.
+
+=======================================================================================
 	
 	void input();
 	
 	Get the input from player. 
+========================================================================================
 	
 	void aiLevel();
 	
 	Choose the AI level
+========================================================================================
 	
 	void printboard(); 
 	
 	Print the game board
+=========================================================================================
 	
 	bool checkwin();
 	
 	Check which players win or the game has drawn and return bool value.
+=========================================================================================
 	
 	int aisteps();
 	
 	AI takes steps based on the level chosen by the player. Then return an integer.
 	
-a - AI tries to take a step and make it more consecutive in sequence based on random numbers, possibility, and chessboard.
+	a - AI tries to take a step and make it more consecutive in sequence based on 	random numbers, possibility, and chessboard.
 
-b - AI generate a random number to take a possible step.
+	b - AI generate a random number to take a possible step.
+========================================================================================
 
 	bool countdown();
 	
 	Countdown from 15 seconds to 0; Then return a bool value. 
+=========================================================================================
 	
 	Void updatefile();
 	
 	Record all the steps made by the player and save it to a .txt file to generate a transcript for them after the game end. 
+=========================================================================================
 	
 	Void showfile();
 	
