@@ -53,7 +53,7 @@
 
    Here are your records.
 
-==each step in the gameboard(shown by gameboard)==
+==each step in the gameboard(shown by gameboard)(if player choose yes)==
 
 
 ```
