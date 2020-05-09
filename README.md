@@ -9,15 +9,12 @@
 1.  First, the programme asks the player to choose the size of the gameboard(3x3, 5x5) to challenge and
     ask players to input their name.
 
-2.  The programme shows the gameboards (includes number 1 - 9) with countdown
-    and then asks the player to input a number.
+2.  The programme shows the gameboards and then asks the player to input a number set of the step which player wants to take.
 
-3.  Afterwards, the player inputs a number within the range from one to nine.
+3.  After, AI makes step, repeat step 2-4 until
+    entering into a win or draw status checked by the program.
 
-4.  After, AI makes step base on the challenging level, repeat step 2-4 until
-    entering into step 5.
-
-5.  Game end until three continuous boxes have the same patterns.
+5.  Game end until three/five continuous boxes have the same patterns.
 
 6.  Then, the records of the steps made by players will be shown as a
     transcript.
@@ -33,12 +30,13 @@
 
 
    ---------------------------
-
-   * | * | *
+   
+    0   1   2
+  0 * | * | *
    ----------
-   * | * | *
+  1 * | * | *
    ----------
-   * | * | *
+  2 * | * | *
    ---------------------------
 
     Please input: (number)
@@ -58,23 +56,20 @@
 
 1st input:
 
-Jason: 1
+Jason: 0 0
 
-AI: 2
 
 2nd input:
 
-Jason: 5
+Jason: 1 1
 
-AI: 7
 
 :::
 
 5th input:
 
-Jason: 9
+Jason: 2 2
 
-AI: 8
 
 ```
 
