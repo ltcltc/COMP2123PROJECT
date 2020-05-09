@@ -6,7 +6,7 @@
 
 ## **Game Descriptions:**
 
-1.  First, the programme asks the player to choose the level of AI challenge and
+1.  First, the programme asks the player to choose the size of the gameboard(3x3, 5x5) to challenge and
     ask players to input their name.
 
 2.  The programme shows the gameboards (includes number 1 - 9) with countdown
