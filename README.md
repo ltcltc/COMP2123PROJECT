@@ -53,22 +53,7 @@
 
    Here are your records.
 
-
-1st input:
-
-Jason: 0 0
-
-
-2nd input:
-
-Jason: 1 1
-
-
-:::
-
-5th input:
-
-Jason: 2 2
+==each step in the gameboard(shown by gameboard)==
 
 
 ```
