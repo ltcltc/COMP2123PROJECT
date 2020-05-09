@@ -22,9 +22,6 @@
 6.  Then, the records of the steps made by players will be shown as a
     transcript.
 
-7.  There is a countdown from 15 seconds. If the players cannot play it within
-    the limit, He/she will be failed.
-
 
 ## **Features**
 
@@ -91,10 +88,7 @@ AI: 8
 
 5.  Chessboard: To storage the steps made by the player
 
-6.  Countdown: The player only have 15 seconds to play the game. Otherwise,
-    he/she lose.
-
-7.  Win check: To check if one of the players is winning or the game is drawn.
+6.  Win check: To check if one of the players is winning or the game is drawn.
 '''
 
 ## **Functions:**
@@ -106,8 +100,7 @@ AI: 8
 | `void aiLevel();`                                          | Choose the AI level                                                                                                                                                                                                                                                 |
 | `void printboard();`                                       | Print the game board                                                                                                                                                                                                                                                |
 | `bool checkwin();`                                         | Check which players win or the game has drawn and return bool value.                                                                                                                                                                                                |
-| `int aisteps();`                                           | AI takes steps based on the level chosen by the player. Then return an integer. a - AI tries to take a step and make it more consecutive in sequence based on random numbers, possibility, and chessboard. b - AI generate a random number to take a possible step. |
-| `bool countdown();`                                        | Countdown from 15 seconds to 0; Then return a bool value.                                                                                                                                                                                                           |
+| `int aisteps();`                                           | AI takes steps based on the level chosen by the player. Then return an integer. a - AI tries to take a step and make it more consecutive in sequence based on random numbers, possibility, and chessboard. b - AI generate a random number to take a possible step.                                                                                                                                                                  |
 | `Void updatefile();`                                       | Record all the steps made by the player and save it to a .txt file to generate a transcript for them after the game end.                                                                                                                                            |
 | `Void showfile();`                                         | Show the transcript records that made by updatefile() at the end of the game.                                                                                                                                                                                       |
 |                                                          |                                                                                                                                                                                                                                                                     |
@@ -120,3 +113,5 @@ AI: 8
 |                                                          |                                                                                                                                                                                                                                                                     |
 
 **References:** Tic-Tac-Toe, Wikipedia, https://en.wikipedia.org/wiki/Tic-tac-toe
+
+Compilation and Execution Instructions. Makefile of the files in the folder and run the main.cpp. Follow the instructions listed in the features.
