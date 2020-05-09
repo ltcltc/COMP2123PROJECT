@@ -31,19 +31,20 @@
 
    Eg:
 
-   Gameboard: Time: 15 s
 
    ---------------------------
 
-   1 | 2 | 3
+   * | * | *
    ----------
-   4 | 5 | 6
+   * | * | *
    ----------
-   7 | 8 | 9
+   * | * | *
    ---------------------------
 
     Please input: (number)
     ----------------------------
+    Note: the User input's place will be replaced by o
+    the Ai's will be replaced by x
 
 ```
 
@@ -105,9 +106,9 @@ AI: 8
 | **Code Requirements**                                    | **Game Implementations:**                                                                                                                                                                                                                                           |
 | Generation of random game sets or events                 | AI generates a number for steps                                                                                                                                                                                                                                     |
 | Data structures for storing game status                  | 1. Array in integer datatype stores the data of the gameboard. 2. String to store player name.                                                                                                                                                                                                        |
-| Dynamic memory management                                | Program storage the steps taken by the player                                                                                                                                                                                                                       |
+| Dynamic memory management                                | Program storage size of the gameboard                                                                                                                                                              |
 | File input/output (e.g., for loading/saving game status) | The program saves and reads the steps of the players to and from a document.                                                                                                                                                                                        |
-| Program codes in multiple files                          | Files: main.cpp input.cpp, input.h aiLevel.cpp. aiLevel.h printboard.cpp, printbaord.h checkwin.cpp, checkwin.h aisteps.cpp, aisteps.h countdown.cpp, countdown.h updatefile.cpp, updatefile.h showfile.cpp, showfile.h                                             |
+| Program codes in multiple files                          | Files: main.cpp input.cpp, input.h aiLevel.cpp. aiLevel.h printboard.cpp, printbaord.h checkwin.cpp, checkwin.h aisteps.cpp, updatefile.cpp, updatefile.h showfile.cpp, showfile.h                                             |
 |                                                          |                                                                                                                                                                                                                                                                     |
 
 **References:** Tic-Tac-Toe, Wikipedia, https://en.wikipedia.org/wiki/Tic-tac-toe
